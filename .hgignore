@@ -1,0 +1,34 @@
+syntax: re
+
+# built application files
+\.(apk|ap_)$
+
+# files for the dex VM
+\.dex$
+
+# Java class files
+\.class$
+
+# built native files
+\.(so|o)$
+
+# generated files
+/?(bin|gen|build)/
+
+# Gradle
+^.gradle/
+^build/
+
+local.properties
+/?proguard/
+lint.xml
+
+/?.metadata/
+
+\.DS_Store
+\.orig$
+~$
+
+# patch files and reject files
+\.patch$
+\.rej$
